@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px 0;
+}
+header .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .title {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+header .container .title h3 {
+  font-size: 25px;
+  margin: 0 10px;
+}
+header .container .search {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(247, 248, 249);
+  padding: 12px 10px;
+  border-radius: 5px;
+}
+header .container .search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+header .container .search i {
+  color: gray;
+}
+header .container .right-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+header .container .right-side button {
+  border: none;
+  background-color: transparent;
+}
+header .container .right-side .new-project {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(108, 93, 211);
+  color: #fff;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+}
+header .container .right-side .new-project h4 {
+  font-weight: 400;
+  margin-left: 10px;
+}
+header .container .right-side .bell-icon {
+  width: 15%;
+  position: relative;
+}
+header .container .right-side .bell-icon .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 159, 56);
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+header .container .right-side .bell-icon i {
+  font-size: 20px;
+  color: gray;
+}
+header .container .right-side .manager {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .container .right-side .manager .img img {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  margin-top: 20px;
+}
+main .container {
+  display: flex;
+}
+main .container .bars {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+main .container .bars a {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 8px 0;
+}
+main .container .bars a:first-child {
+  border-right: 2px solid rgb(108, 93, 211);
+}
+main .container .bars a .active {
+  color: rgb(108, 93, 211);
+}
+main .container .bars a p {
+  margin-left: 10px;
+  font-weight: 500;
+  color: rgb(182, 182, 182);
+}
+main .container .main-right-side {
+  width: 82%;
+  padding: 20px 10px 100px 10px;
+  background-color: rgb(232, 235, 237);
+}
+main .container .main-right-side h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+main .container .main-right-side .icons button {
+  border: none;
+  background-color: transparent;
+}
+main .container .main-right-side .icons button:last-child {
+  transform: translate(-14px);
+}
+main .container .main-right-side .main-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .main-right-side .main-title div {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .main-right-side .main-title div span {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(182, 182, 182);
+  margin-left: 8px;
+}
+main .container .main-right-side .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .container .main-right-side .cards .card {
+  margin: 20px 0;
+  border-radius: 10px;
+  width: 30%;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+main .container .main-right-side .cards .card button {
+  background-color: transparent;
+  border: none;
+}
+main .container .main-right-side .cards .card .card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .main-right-side .cards .card p {
+  font-size: 14px;
+  color: rgb(182, 182, 182);
+  margin: 10px 0;
+}
+main .container .main-right-side .cards .card .technologies {
+  display: flex;
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+main .container .main-right-side .cards .card .technologies div {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+main .container .main-right-side .cards .card .technologies .ios {
+  background-color: rgb(255, 236, 215);
+  color: rgb(255, 159, 56);
+}
+main .container .main-right-side .cards .card .technologies .android {
+  background-color: rgb(191, 241, 223);
+  color: rgb(82, 205, 159);
+  margin-left: 5px;
+}
+main .container .main-right-side .cards .card .technologies .website {
+  background-color: rgba(100, 203, 244, 0.2);
+  color: rgb(100, 203, 244);
+}
+main .container .main-right-side .cards .card .technologies .branding {
+  background-color: rgb(232, 235, 237);
+  color: rgb(84, 93, 173);
+}
+main .container .main-right-side .cards .card .technologies .iot {
+  background-color: rgb(246, 242, 252);
+  color: rgb(160, 125, 218);
+  margin-right: 5px;
+}
+main .container .main-right-side .cards .card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .main-right-side .cards .card .card-footer .left-side {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .main-right-side .cards .card .card-footer .left-side .message-box {
+  color: rgb(182, 182, 182);
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+}
+main .container .main-right-side .cards .card .card-footer .right-side {
+  display: flex;
+}
+main .container .main-right-side .cards .card .card-footer .right-side div {
+  width: 31px;
+  height: 31px;
+}
+main .container .main-right-side .cards .card .card-footer .right-side div img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
